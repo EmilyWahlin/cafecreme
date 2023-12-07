@@ -1,6 +1,7 @@
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
+  padding: 0;
 }
 
 header {
@@ -15,6 +16,45 @@ header {
 
 }
 
-.option-navbar {
+.option-navbar a {
+	text-decoration: none;
 	color: white;
 }
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.picture-container {
+	width: 100%;
+	height: 450px;
+	background-image: url("coffee.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.welcome-text {
+	background-color: #a3cef1;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.opening-hours {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 40px;
+}
+
+
+
+
