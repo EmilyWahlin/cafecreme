@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
+  padding: 0;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
 	align-items: center;
 	justify-content: space-evenly;
 	background-color: rgba(39, 76, 119, 1);
+
 }
 
 .option-navbar a {
@@ -52,3 +54,7 @@ header {
 	align-items: center;
 	line-height: 40px;
 }
+
+
+
+
